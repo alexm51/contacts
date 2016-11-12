@@ -76,14 +76,14 @@ angular.module('contactsApp')
 		if (ctrl.data.value[3]) {
 			fn += ctrl.data.value[3] + ' ';
 		}
+		if (ctrl.data.value[0]) {
+			fn += ctrl.data.value[0] + ' ';
+		}
 		if (ctrl.data.value[1]) {
 			fn += ctrl.data.value[1] + ' ';
 		}
 		if (ctrl.data.value[2]) {
 			fn += ctrl.data.value[2] + ' ';
-		}
-		if (ctrl.data.value[0]) {
-			fn += ctrl.data.value[0] + ' ';
 		}
 		if (ctrl.data.value[4]) {
 			fn += ctrl.data.value[4];
